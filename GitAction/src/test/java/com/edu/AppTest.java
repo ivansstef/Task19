@@ -1,14 +1,9 @@
-package com.edu;
-
-import org.junit.Assert;
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
+import static org.junit.jupiter.api.Assertions.assertTrue;
 
 public class AppTest {
-
     @Test
-    public void testApp() {
-        System.out.println("class AppTest; method testApp()");
-        //
-        Assert.assertTrue(true);
+    void testSomething() {
+        assertTrue(true);
     }
 }
