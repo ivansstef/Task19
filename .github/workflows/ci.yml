@@ -21,4 +21,8 @@ jobs:
       - name: Build with Maven
         run: cd GitAction && mvn -B package
 
+      - name: Run unit tests
+        run: cd GitAction && mvn test
+
+
 
